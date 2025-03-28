@@ -1,0 +1,68 @@
+3                                                                                                                                                                                 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="./3_labreport.html">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a leading company in our industry, offering the best services and customer satisfaction.</p>
+    </section>
+
+    <section id="services">
+        <h2>Services</h2>
+        <div class="service">
+            <h3>Web Development</h3>
+            <p>We offer web development services to help your business grow online with custom websites.</p>
+        </div>
+        <div class="service">
+            <h3>SEO Optimization</h3>
+            <p>Our SEO services help your website rank higher on search engines and attract more visitors.</p>
+        </div>
+        <div class="service">
+            <h3>Digital Marketing</h3>
+            <p>We provide effective digital marketing strategies to promote your brand and increase visibility.</p>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="image/image1.jpg" alt="Image 1">
+            <img src="image/image2.jpg" alt="Image 2">
+            <img src="image/image3.jpg" alt="Image 3">
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+</html>
