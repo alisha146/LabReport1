@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frames Example</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap:5px;
+            height: 100vh;
+            padding: 5px;
+        }
+        .box{
+            border: 2px solid black;
+            padding: 10px;
+            overflow: auto;
+        }
+        .fishes{
+            background-color: lightblue;
+        }
+        .figure{
+            background-color: purple;
+            color: white;
+        }
+        .caption{
+            background-color: pink;
+        }
+        h2{
+            margin: 0;;
+        }
+        ul{
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box fishes">
+            <h2>Fishes</h2>
+            <ul>
+                <li>Guppy fish</li>
+                <li>Angel fish</li>
+                <li>Gold fish</li>
+                <li>Molly fish</li>
+            </ul>
+        </div>
+        <div class="box figure">
+            <h2>FIGURE</h2>
+            <p>you can see the image in this box if you click in the right frame.</p>
+        </div>
+        <div class="box content">
+            <h2>CONTENT</h2>
+            <ul>
+                <li><span style="color:green;">Birds</span></li>
+                <li><span style="color:brown;">Animals</span></li>
+                <li><span style="color:red;">Fishes</span></li>
+            </ul>
+        </div>
+        <div class="box caption">
+            <h2>CAPTION</h2>
+            <p>you can read a short comment about the figure in this box.Click the caption in the tpo frame.</p>
+        </div>
+    </div>
+</body>
+</html>
