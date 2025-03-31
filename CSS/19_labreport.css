@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://images.pexels.com/photos/443399/pexels-photo-443399.jpeg?cs=srgb&dl=pexels-sevenstormphotography-443399.jpg&fm=jpg');
+    background-size: cover;
+    background-position: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form-container {
+    background-color: rgba(173, 216, 230, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin: 10px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+input::placeholder {
+    color: black;
+}
+.gender-options {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.gender-options input {
+    margin-right: 5px;
+}
+
+.terms {
+    margin: 10px 0;
+    color: black;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: blueviolet;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    background-color: darkviolet;
+}
+.remember-me {
+    margin: 10px 0;
+    color: black;
+}
